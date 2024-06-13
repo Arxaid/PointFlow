@@ -14,7 +14,7 @@ class PipelineMaker{
 private:
     int strobeWidth_ = 640;
     int strobeHeight_ = 480;
-    int framerate_ = 15;
+    int framerate_ = 30;
     bool colorChannel_ = false;
     bool depthChannel_ = false;
 public:
